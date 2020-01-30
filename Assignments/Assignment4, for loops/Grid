@@ -1,0 +1,9 @@
+num_int = int(input('Input number: ')) # Do not change this line
+
+for y in range(num_int-1,-1,-1): #erum að fara í 0-ið, þess vegna er -1 í miðjunni
+
+    for x in range(0, num_int):
+        print(("({},{})").format(x, y), end=" ")
+
+    print()
+    

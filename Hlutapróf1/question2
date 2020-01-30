@@ -1,0 +1,11 @@
+num_str = input("Input an int: ")
+num_int = int(num_str)
+
+the_sum = 0
+while (num != 100) and (num != q):
+    the_sum += num_int
+    num_str = input("Input an int: ")
+    num_int = int(num_str)
+
+print(the_sum)
+
